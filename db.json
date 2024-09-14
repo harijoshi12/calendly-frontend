@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "availableDates": [
+        {
+          "date": "2024-09-15",
+          "slots": ["10:00", "14:30", "16:00"]
+        },
+        {
+          "date": "2024-09-16",
+          "slots": ["11:00", "15:00"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "availableDates": [
+        {
+          "date": "2024-09-14",
+          "slots": ["09:00", "13:00", "17:00"]
+        },
+        {
+          "date": "2024-09-15",
+          "slots": ["10:30", "14:00", "16:30"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Mike Johnson",
+      "email": "mike.johnson@example.com",
+      "availableDates": [
+        {
+          "date": "2024-09-16",
+          "slots": ["09:30", "12:30", "15:30"]
+        },
+        {
+          "date": "2024-09-17",
+          "slots": ["10:00", "14:00", "16:00"]
+        }
+      ]
+    }
+  ],
+  "bookings": []
+}
